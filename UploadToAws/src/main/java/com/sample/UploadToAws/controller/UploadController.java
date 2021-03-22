@@ -19,8 +19,8 @@ import com.amazonaws.services.s3.model.Bucket;
 public class UploadController {
 	
 	AWSCredentials credentials = new BasicAWSCredentials(
-			  "AKIA24WQTFXCL6QNKQBR", 
-			  "SBerAuG5x0wBUEkT1NPCF1luFiPP6VuWvb4yVrZu"
+			  "access Key ", 
+			  "Security Key"
 			);
 	
 	AmazonS3 s3client = AmazonS3ClientBuilder
